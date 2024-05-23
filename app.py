@@ -10,7 +10,6 @@ import sys
 load_dotenv()
 api_key = os.getenv("OPENAI_API_KEY")
 MODEL_NAME = "gpt-3.5-turbo"
-print(api_key)
 
 account_sid = os.getenv("TWILIO_ACCOUNT_SID")
 auth_token = os.getenv("TWILIO_AUTH_TOKEN")
